@@ -25,6 +25,23 @@ namespace Basics
             }
         }
     }
+
+    // Constructor Example
+    // Create Class Person: private string name, private int age.
+    // Initial object Person by Constructor
+    public class Person
+    {
+        
+
+    }
+
+    // Random Example
+    public class RandomExample
+    {
+
+    }
+
+
     class Program
     {
         static void Main(string[] args)
@@ -37,8 +54,10 @@ namespace Basics
 
             switch (status)
             {
+                #region ArrayExample
                 case 1:
                     {
+                        
                         // Array
                         ArrayExample arrayExample = new ArrayExample();
                         int[] arrayInteger1 = { 1, 2, 4, 6, 8, 15 };
@@ -48,7 +67,9 @@ namespace Basics
                         arrayExample.setArrayValue(arrayInteger2);
                         arrayExample.getArrayValue(arrayInteger2);
                         break;
+
                     }
+                #endregion
                 default:
                     break;
             }
